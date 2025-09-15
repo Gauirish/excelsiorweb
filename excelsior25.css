@@ -82,12 +82,15 @@ body{
 .title-accent{background:linear-gradient(135deg,#7cf3ff,#ff93e2); -webkit-background-clip:text; background-clip:text; color:transparent; text-shadow:0 0 0 rgba(0,0,0,0)}
 .hero-date{font-weight:800; letter-spacing:.02em; color:#f7fbff; margin:.3rem 0 1rem}
 .hero-sub{color:#e9f1ff; opacity:.9; max-width:45ch}
-.cta-row{display:flex; gap:.8rem; margin-top:1.2rem}
+.cta-row{display:flex; gap:.8rem; margin-top:1.2rem;flex-wrap:wrap; justify-content:center}
 .cta-row.center{justify-content:center}
 
 .hero-left {
   flex: 1;
   max-width: 800px;
+}
+.hero-left h2 {
+  text-align: center;
 }
 .hero-left p {
   text-align: center;
@@ -949,4 +952,5 @@ a:focus, button:focus, input:focus{
                 padding-left: 1.2rem;
             }
         }
+
 
